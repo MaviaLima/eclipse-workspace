@@ -1,0 +1,8 @@
+package sistema.service;
+import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.core.Aplication;
+
+"ApplicatonPath("api")
+public class AppRest extends Application {
+
+}
