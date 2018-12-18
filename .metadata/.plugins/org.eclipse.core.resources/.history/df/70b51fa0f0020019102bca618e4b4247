@@ -51,17 +51,17 @@ public class Pessoa {
 		
 	}
 	
-	public Pessoa(Integer id, String nome, String cpf) {
-		this.id = id;
+	public Pessoa(String cpf, String nome) {
+		
 		this.cpf = cpf;
 		this.nome = nome;
 	}
 
 
-	public Pessoa( Integer Id, String cpf, String nome, String tipoLogradouro, String logradouro, String numero,
+	public Pessoa( String cpf, String nome, String tipoLogradouro, String logradouro, String numero,
 			String bairro, String cidade, String estado, String telefoneCelular, String telefoneFixo) {
 		super();
-		this.id = id;
+	//	this.id = super().id;
 		this.cpf = cpf;
 		this.nome = nome;
 		this.tipoLogradouro = tipoLogradouro;
